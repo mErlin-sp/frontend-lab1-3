@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const study = document.getElementById('study');
+$(document).ready(function () {
+    const study = document.getElementById('study')
 
     study.onclick = function () {
         if (study.getAttribute('class') === 'preset1') {
@@ -56,5 +56,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         })
     });
-});
-
+})
